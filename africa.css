@@ -385,23 +385,3 @@ section .heading .desc-h{
     margin: 0% 0% 0% 90%;
 } 
 
-#back-to-top-btn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    background-color: #000000;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    outline: none;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  #back-to-top-btn:hover {
-    background-color: #ff7b00;
-  }
