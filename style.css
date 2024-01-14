@@ -636,42 +636,6 @@ header .content .cont_bx p{
 
 
 
-@media (width < 600px) {
-  .nav__links {
-    display: none;
-  }
-
-  
-
-  .touchsearch {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2rem;
-  }
-
-  .trending__grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .conti_grid{
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .service__card {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .guide__grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .client__grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .subscribe__container input {
-    padding: 0 1rem;
-  }
 
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
