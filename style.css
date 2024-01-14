@@ -637,7 +637,3 @@ header .content .cont_bx p{
 
 
 
-  .footer__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
