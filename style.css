@@ -547,92 +547,9 @@ header .content .cont_bx p{
   cursor: pointer;
 }
 
-#back-to-top-btn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  background-color: #000000;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  outline: none;
-  transition: background-color 0.3s ease-in-out;
-}
 
-#back-to-top-btn:hover {
-  background-color: #ff7b00;
-}
 
-@media only screen and (max-width: 767px) {
-  header {
-    width: 100%;
-  }
 
-  header nav {
-    flex-direction: column;
-    height: auto;
-    align-items: center;
-  }
-
-  header nav ul {
-    flex-direction: column;
-  }
-
-  header nav ul li {
-    padding: 10px 0;
-  }
-
-  header .content .cont_bx {
-    width: 100%;
-    padding: 20px;
-  }
-
-  header .content::before {
-    height: 60%;
-  }
-
-  header .content .cont_bx h1 {
-    font-size: 24px;
-    padding: 5%;
-  }
-
-  header .content .cont_bx p {
-    font-size: 12px;
-  }
-
-  /* Add more styles for small screens */
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  header nav ul li a {
-    font-size: 12px;
-    padding: 5px 10px;
-  }
-
-  header .content .cont_bx {
-    width: 80%;
-  }
-
-  /* Add styles for medium screens */
-}
-
-/* Large screens (1024px and above) */
-@media only screen and (min-width: 1024px) {
-  header {
-    width: 80%;
-  }
-
-  header nav {
-    width: 80%;
-  }
-
-  /* Add styles for large screens */
-}
 
 
 
